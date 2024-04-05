@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculadora de Salário de Funcionário</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+
+<body>
+    <h1>Calculadora de Salário de Funcionário</h1>
+    <form id="salariocalcSalario">
+        <label for="nome">Nome do Funcionário:</label>
+        <input type="text" id="nome" nome="nome" required>
+        <br>
+        <label for="valorHora">Valor da valorHora:</label>
+        <input type="number" id="valorHora" nome="valorHora" step="0.01" min="0" required>
+        <br>
+        <label for="hora">valorHoras Trabalhadas:</label>
+        <input type="number" id="hora" nome="hora" step="0.01" min="0" max="240" required>
+        <br>
+        <button type="submit" id="calculo">Calcular Salário</button>
+        <br>
+        <label for="salarioBruto">Salário Bruto:</label>
+        <input type="text" id="salarioBruto" nome="salarioBruto" readonly>
+        <br>
+        <label for="irrf">IRRF:</label>
+        <input type="text" id="irrf" nome="irrf" readonly>
+        <br>
+        <label for="inss">INSS</label>
+        <input type="text" id="inss" nome="inss" readonly>
+        <br>
+        <label for="sL">Salário Líquido:</label>
+        <input type="text" id="sL" nome="sL" readonly>
+        <br>
+        <button type="reset" id="reset">Limpar</button>
+    </form>
+    <script src="../js/calculadora.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+td {
+    padding: 10px;
+    border: 2px;
+}
+
+.botaoAction {
+    border: none;
+    background-color: #fff;
+}
+
+
+.botaoAdd{
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 14.5px;
+    align-self: center;
+}
